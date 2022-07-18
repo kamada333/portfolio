@@ -1,0 +1,33 @@
+.sns img{
+  width: 125px;
+  height: 125px;
+  border-radius: 100px;
+}
+
+#sns .card-effect:hover{
+  box-shadow: map-get($shadow, box);
+  transform: none;
+}
+
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a{
+    width: 34px;
+    height: 35px;
+    background-color: map-get($colors, primary);
+    border: 2px solid map-get($colors, primary);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 5px;
+    transition: all 0.4s ease;
+      &:hover{
+        color: map-get($colors, primary);
+        background-color: transparent;
+      }
+  }
+}

@@ -1,0 +1,10 @@
+.card-effect{
+  box-shadow: map-get($shadow, box);
+  background-color: #fff;
+  padding: 25px;
+  transition: all 0.35s ease;
+  &:hover{
+  box-shadow: none;
+  transform: translateY(5px);
+  }
+}

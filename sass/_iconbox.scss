@@ -1,0 +1,12 @@
+.iconbox{
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 32px;
+  background-color: map-get($colors, primary);
+  border-radius: 100px;
+  flex: none;
+}

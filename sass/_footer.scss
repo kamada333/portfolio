@@ -1,0 +1,11 @@
+.footer-top{
+  background-color: map-get($colors, dark);
+  padding: 90px;
+  padding-bottom: 90px;
+  a{
+    color: map-get($colors, body);
+    &:hover{
+      color: #fff;
+    }
+  }
+}

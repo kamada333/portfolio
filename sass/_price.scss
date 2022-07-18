@@ -1,0 +1,15 @@
+#price .card-effect:hover{
+  box-shadow: map-get($shadow, box);
+  transform: none;
+}
+.col-img{
+  background-image: url(/img/sns.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+@media screen and (max-width: 991px) {
+  .col-img {
+    display: none;
+  }
+}
